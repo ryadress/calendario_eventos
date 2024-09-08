@@ -1,0 +1,25 @@
+@use'hero';
+@use './components/infos';
+@use './components/button.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    
+    @media (max-width:640px) {
+        max-width: 80%;
+    }
+    @media (max-width:1024){
+        max-width: 90%;
+    }
+}

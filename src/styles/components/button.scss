@@ -1,0 +1,15 @@
+.button {
+    font-size: 18px;
+    padding: 12px;
+    font-weight: bold;
+
+    &__primery {
+        color: #fff;
+        background-color: rgb(11, 11, 178);
+    }
+
+    @media (max-width: 640px){
+        display: block;
+        width: 100%;
+    }
+}
